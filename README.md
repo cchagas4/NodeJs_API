@@ -1,6 +1,6 @@
 NODE JS - BASE API
 
-REST - COnjunto de Principios de arquitetura
+REST - Conjunto de Principios de arquitetura
 RESTful - capacidade de determinado sistema aplicar os principio de REST
 
 npm init -y
@@ -20,10 +20,13 @@ $ npm i --save body-parser@1.19.0
 $ npm i --save config@3.2.3
 
 * “./config/default.json” -  Arquivo de configurações de ambientes banco de dados, autenticação...
-*  “./config/express.js” - Arquivo para configurar a aplicação Express
+* “./config/express.js” - Arquivo para configurar a aplicação Express
 * “./server.js” - arquivo que inicia o servidor dentro da pasta raiz do projeto 
 
 $ nodemon server.js -  sobe o servidor
 
 $ npm i consign@0.1.6 --save
 
+PostgreSQL - Banco de dados relacional Open source 
+
+$ npm i pg --save
